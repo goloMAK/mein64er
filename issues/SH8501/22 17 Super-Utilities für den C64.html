@@ -53,7 +53,7 @@
 
         <p>Für spätere Änderungsarbeiten wird man sich natürlich ein »augenfreundliches« Original verwahren, am besten benutzt man von allen Basic-Programmen zwei Versionen: Eine originale zur Dokumentation, Korrektur, Ausdruck und eine komprimierte mit minimalen Platzansprüchen und schneller Ausführung.<br>
             <strong>CPU-Register ein (sys 49182)</strong>: Zeigt fortwährend die Register des Mikroprozessors in den beiden oberen Bildschirmzeilen an.<br>
-            Außerdem werden der IRQ-, NMI- und der BRK-Vektor sowie der Programmcounter angezeigt. Im Status-Register bedeutet »<em>« ein gesetztes Bit, ».« ein gelöschtes.<br>
+            Außerdem werden der IRQ-, NMI- und der BRK-Vektor sowie der Programmcounter angezeigt. Im Status-Register bedeutet »*« ein gesetztes Bit, ».« ein gelöschtes.<br>
                 <strong>CPU-Register aus (sys 49185)</strong>: Schaltet die Anzeige wieder ab.<br>
                 <strong>Basic-Ende setzen (sys 49188)</strong>: setzt das Basic-Ende genau hinter das im Speicher befindliche Programm. Normalerweise erledigt das der Interpreter; wenn aber absolut geladen wurde, zum Beispiel in den $c-Block hinein, dann steht der Programm-Ende-Zeiger ebenfalls im $c-Block, und Eingabeversuche werden mit »out of memory«-Fehlermeldungen abgewehrt.<br>
                 <strong>Dump (sys 49191)</strong>: Gibt alle definierten Variablen unter Angabe des Namens und des aktuellen Inhalts aus.<br>
